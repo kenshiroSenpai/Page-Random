@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/portada.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <title>DAM</title>
+</head>
+
+<body id="bg">
+    <!-- Header -->
+    <div id="box" class="jumbotron">
+        <div class="container"></div>
+        <h1 id="title">IES El Rincón DAM</h1>
+        <p id="content">This page was created by a student like you can be.</p>
+    </div>
+    <!-- Content -->
+    <!-- Links -->
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <!-- Búsqueda Google -->
+            <form id="my-form" method=GET action="http://www.google.com/search">
+                <table id="googleTable">
+                    <tr>
+                        <td>
+                            <a HREF="http://www.google.com/">
+                                <img id="logoGoogle" SRC="img/logo.png" ALT="Google"></A>
+                            <input TYPE=text name=q size=31 maxlength=255 value="">
+                            <input TYPE=hidden name=hl value=es>
+                            <input type=submit class="btn-sm" name=btnG value="Búsqueda Google">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <!-- Búsqueda Google -->
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#Contacts">Contacts</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#Projects">Projects</a>
+        </li>
+    </ul>
+
+    <!-- Tab pane that have the home  -->
+    <div class="tab-content">
+        <div class="tab-pane container active" id="home">
+            <div class="jumbotron jumBody">
+                <h4 class="jumboHeader">Welcome to the web page of ies el rincon, in particular, the multiplatform
+                    development course and web applications.</h4>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <a class="navbar-brand" href="https://en.wikipedia.org/wiki/JavaScript">
+                        <img id="photoJs" src="img/js.png" alt="photoJs">
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a class="navbar-brand" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">
+                        <img id="photoCss" src="img/css.png" alt="photoCss">
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a class="navbar-brand" href="https://en.wikipedia.org/wiki/HTML5">
+                        <img id="photoHtml" src="img/html.PNG" alt="photoHtml">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <img id="photoHome" src="img/recorte1.PNG" alt="photoHome">
+            </div>
+            <div class="row">
+                <div class="col-4">
+                </div>
+                <div class="col-4">
+                    <p class="jumboHeader">This is the code of the page. You can see it with F12.Try it!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Tab pane that have the About  -->
+        <div class="tab-pane container fade" id="About">
+            <div class="jumbotron jumBody">
+                <h4 class="jumboHeader">All about this certificate of higher education, job opportunity and more here</h4>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <table class="table table-dark table-striped">
+                        <thead>
+                            <tr>
+                                <th>Modules</th>
+                            </tr>
+                            <tr>
+                                <th>Code</th>
+                                <th>Name</th>
+                                <th>Weekly hours</th>
+                                <th>Total hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>31412</td>
+                                <td>[SSF] Information systems</td>
+                                <td>5.00(min),5.00(max)</td>
+                                <td>160.00(min),160.00(max)</td>
+                            </tr>
+                            <tr>
+                                <td>31413</td>
+                                <td>[BAE] Database</td>
+                                <td>6.00(min),6.00(max)</td>
+                                <td>192.00(min),192.00(max)</td>
+                            </tr>
+                            <tr>
+                                <td>31414</td>
+                                <td>[PRO] Programming</td>
+                                <td>7.00(min),7.00(max)</td>
+                                <td>224.00(min),224.00(max)</td>
+                            </tr>
+                            <tr>
+                                <td>31415</td>
+                                <td>[LND] Markup languages and information management systems</td>
+                                <td>4.00(min),4.00(max)</td>
+                                <td>128.00(min),128.00(max)</td>
+                            </tr>
+                            <tr>
+                                <td>31416</td>
+                                <td>[ETS] Development Environments</td>
+                                <td>3.00(min),3.00(max)</td>
+                                <td>96.00(min),96.00(max)</td>
+                            </tr>
+                            <tr>
+                                <td>31417</td>
+                                <td>[FOL] Training and career guidance</td>
+                                <td>3.00(min),3.00(max)</td>
+                                <td>96.00(min),96.00(max)</td>
+                            </tr>
+                            <tr>
+                                <td>31427</td>
+                                <td>[LNT] Foreign language(English)</td>
+                                <td>2.00(min),2.00(max)</td>
+                                <td>64.00(min),64.00(max)</td>
+                            </tr>
+                            <tr>
+                                <td>31539</td>
+                                <td>[TUO] Tutorial</td>
+                                <td>2.00(min),2.00(max)</td>
+                                <td>64.00(min),64.00(max)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <table class="table table-success table-striped">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>job opportunity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>developer of computer applications for business management</td>
+                            </tr>
+                            <tr>
+                                <td>Creating mobile applications and video games</td>
+                            </tr>
+                            <tr>
+                                <td>Information Manager</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="jumbotron jumBody">
+                        <h4 class="aboutTitle">Schedule</h4>
+                        <p class="aboutText">Afternoon(3 at 9 pm)</p>
+                        <p class="aboutText">Night(Semipresencial)</p>
+                    </div>
+                    <a href="http://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/wp-content/uploads/sites/137/2018/10/calendario_escolar_18_19.jpg">
+                        <div class="jumbotron jumA">
+                            <h4 class="aboutTitle">School calendar 2018-2019</h4>
+                            <p class="aboutText">Click here</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane container fade" id="Contacts">
+            <div class="jumbotron jumBody">
+                <h4 class="jumboHeader">Contact and Location</h4>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <p class="blacky">Schedule of secretary:</p>
+                    <p>9:30 at 13:00h</p>
+                </div>
+                <div class="col-4">
+                    <p class="blacky">Telefons:</p>
+                    <p>928-227-283</p>
+                    <p>928-227-248</p>
+                    <p class="blacky">Fax:</p>
+                    <p>928-222-102</p>
+                </div>
+                <div class="col-4">
+                    <p class="blacky">Direction:</p>
+                    <p>Avenida Industrial José Sánchez Peñate s/n
+                        35010 Las Palmas de Gran Canaria
+                        LAS PALMAS (ESPAÑA)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img id="rincon" src="img/rincon.gif" alt="IES El Rincon">
+                </div>
+                <div class="col-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.6104299493654!2d-15.449827034592955!3d28.127899632619645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40951c8a18a0f3%3A0x142cb0d09763a325!2sIES+El+Rinc%C3%B3n!5e0!3m2!1ses!2ses!4v1543423725852"
+                        width="550" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane container fade" id="Projects">
+            <div class="jumbotron jumBody">
+                <h2 class="jumboHeader">Projects</h2>
+            </div>
+            <div class="row">
+                    <div class="jumbotron jumErasmus">
+                        <img id="erasmus" src="img/erasmus.png" alt="erasmus+">
+                        <p class="info">Erasmus + is the unique program that seeks to boost job prospects and personal
+                            development,
+                            in
+                            addition to helping our education, training and youth systems to provide teaching and
+                            learning
+                            that equip people with the skills needed for the labor market and the current and future
+                            society.</p>
+                        <a id="linkErasmus" href="http://www.sepie.es/comunicacion/publicaciones/index.html">Click
+                            here!</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="jumbotron jumAcemec">
+                    <img src="img/acemec.png" alt="acemec">
+                    <p class="info">The Alliance of Educational Centers for Continuous Improvement (ACEMEC) is made up
+                        of a
+                        group of
+                        centers in the Autonomous Community of the Canary Islands that are committed to working
+                        together to improve the service provided to their students by quality education and training
+                        and agree in your mission.</p>
+                    <a id="linkAcemec" href="http://www.acemec.org/">More here!</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="jumbotron jumInfo">
+                    <img src="img/enlaza.png" alt="enlaza">
+                    <p class="info">The Enlaza Project promotes Vocational Training to improve the employability and
+                        entrepreneurship of the population of the Canary Islands, using knowledge management and
+                        collaborative networks as tools, incorporating innovation in the faculty's teaching activity
+                        for later transfer to the professional activity of the companies.</p>
+                    <a id="linkEnlaza" href="http://www3.gobiernodecanarias.org/medusa/proyecto/38700001-0002/proyecto-enlaza/">Info
+                        here!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
